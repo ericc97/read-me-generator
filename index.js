@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkDown = require('./utils/generateMarkDown');
+const generateMarkDown = require('./');
 
 // TODO: Create an array of questions for user input
 const questions = [
