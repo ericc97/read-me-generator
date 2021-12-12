@@ -21,45 +21,46 @@
   function generateMarkDown(data) {
     console.log('data is =>', data);
     return `
-    # Title
-    ${data.title}
+  # Title
+  ${data.title}
 
-    # Table of Contents
-    * [Title](#Title)\n
-    * [Description](#Description)\n
-    * [Installation](#Installation)\n
-    * [Usage](#Usage)\n
-    * [Contributors](Contributors)\n
-    * [Tests](#Tests)\n
-    * [Questions](#Questions)\n
-    * [License](#License)\n
+  # Table of Contents
+  * [Title](#Title)\n
+  * [Description](#Description)\n
+  * [Installation](#Installation)\n
+  * [Usage](#Usage)\n
+  * [Contributors](Contributors)\n
+  * [Tests](#Tests)\n
+  * [Questions](#Questions)\n
+  * [License](#Licenses)\n
     
 
-    ## Description
-    ${data.description}
+  ## Description
+  ${data.description}
 
-    ## Installation
-    ${data.install}
+  ## Installation
+  ${data.install}
 
-    ## Usage
-    ${data.usage}
+  ## Usage
+  ${data.usage}
     
-    ### Contributors
-    ${data.contribute}
+  ### Contributors
+  ${data.contribute}
 
-    ### Tests
-    ${data.test}
+  ### Tests
+  ${data.test}
 
-    ### Github information 
-    (github.com/${data.questions})
+  ### Github information 
+  (github.com/${data.questions})
 
-    ### Contact info
-    ${data.email}
+  ### Contact info
+  If you have any questions please feel free to shoot me an email:
+  ${data.email}
 
-    ### Licenses
-    ${renderLicense(data.license)}
+  ### Licenses
+  ${renderLicense(data.license)}
 
-    `;
+  `;
   
   }
   
