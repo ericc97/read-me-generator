@@ -1,49 +1,49 @@
+# Title
+Read.md Generator
+# Screencastify Video Tutorial link
+https://watch.screencastify.com/v/0FYqL6W85UsPwMtOYwwU
 
-  # Title
-  READ.md generator
+# Table of Contents
+* [Title](#Title)
 
-  # Table of Contents
-  * [Title](#Title)
+* [Description](#Description)
 
-  * [Description](#Description)
+* [Installation](#Installation)
 
-  * [Installation](#Installation)
+* [Usage](#Usage)
 
-  * [Usage](#Usage)
+* [Contributors](Contributors)
 
-  * [Contributors](Contributors)
+* [Tests](#Tests)
 
-  * [Tests](#Tests)
+* [Questions](#Questions)
 
-  * [Questions](#Questions)
-
-  * [License](#License)
+* [License](#License)
 
     
 
-  ## Description
-  this app will generate a READ.md file
+## Description
+This project is designed to stream-line the creation of READ.md files
 
-  ## Installation
-  In order to install this app you must first clone the repo then run a npm install to dowload all of the dependencies. 
+## Installation
+In order to install this project you must first clone the repo from Github. Then preform an npm install to get all of the dependencies.
 
-  ## Usage
-  This project it built for anyone who may be created a repo for their own projects
+## Usage
+This project was designed to be used by any software developer or creator. This project will allow the creator to build a dynamic read 
     
-  ### Contributors
-  Eric 
+### Contributors
+Eric Coleman
 
-  ### Tests
-  Test this project by runnning it in your command line
+### Tests
+You must first open the command line and run the index file in node. The project will then direct you step by 
 
-  ### Github information 
-  (github.com/ericc97)
+### Github information 
+(github.com/ericc97)
 
-  ### Contact info
-  If you have any questions please feel free to shoot me an email:
-  ericcoleman9217@gmail.com
+### Contact info
+ericcoleman9217@gmail.com
 
-  ### Licenses
-  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+### Licenses
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-  
+    
