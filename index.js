@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkDown = require('./');
+const generateMarkDown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -16,11 +16,6 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'tableOfCont',
-        message: 'Please list a table of contents for your project'
-    },
-    {
-        type: 'input',
         name: 'install',
         message: 'describe how to install your project'
     },
@@ -31,7 +26,7 @@ const questions = [
     },
     {
         type: 'checkbox',
-        name: 'licenses',
+        name: 'license',
         message: 'What licenses did you use?',
         choices: [
             {name: 'MIT'},
@@ -54,8 +49,14 @@ const questions = [
     {
         type: 'input',
         name: 'questions',
-        message: 'list some questions for the project, ex. future directions'
+        message: 'Enter your github username'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email'
     }
+    
     
 
 ];
@@ -72,8 +73,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-        .then(answers => {
-            const markDown = generateMarkDown(answers)
+        .then(data => {
+            const markDown = generateMarkDown(data)
             writeToFile('README.md', markDown)
         })
 }
