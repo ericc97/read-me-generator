@@ -1,5 +1,7 @@
 # Title
 Read.md Generator
+# Screencastify Video Tutorial link
+https://watch.screencastify.com/v/0FYqL6W85UsPwMtOYwwU
 
 # Table of Contents
 * [Title](#Title)
