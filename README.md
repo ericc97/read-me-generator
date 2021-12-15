@@ -1,7 +1,6 @@
+
 # Title
-Read.md Generator
-# Screencastify Video Tutorial link
-https://watch.screencastify.com/v/0FYqL6W85UsPwMtOYwwU
+creve
 
 # Table of Contents
 * [Title](#Title)
@@ -18,32 +17,32 @@ https://watch.screencastify.com/v/0FYqL6W85UsPwMtOYwwU
 
 * [Questions](#Questions)
 
-* [License](#License)
+* [License](#Licenses)
 
     
 
 ## Description
-This project is designed to stream-line the creation of READ.md files
+vrevr
 
 ## Installation
-In order to install this project you must first clone the repo from Github. Then preform an npm install to get all of the dependencies.
+vrevre
 
 ## Usage
-This project was designed to be used by any software developer or creator. This project will allow the creator to build a dynamic read 
+vrevre
     
 ### Contributors
-Eric Coleman
+vrevr
 
 ### Tests
-You must first open the command line and run the index file in node. The project will then direct you step by 
+vrevr
 
 ### Github information 
-(github.com/ericc97)
+(github.com/vervre)
 
 ### Contact info
-ericcoleman9217@gmail.com
+If you have any questions please feel free to shoot me an email:
+vreve
 
 ### Licenses
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-    
